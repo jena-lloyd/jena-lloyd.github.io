@@ -1,0 +1,54 @@
+
+
+
+body {background-color:#833B83;
+       background-image: linear-gradient(to bottom right, #421C52, #833B83);
+       background-repeat: no-repeat;
+	   color:#FFFFFF; 
+	   font-family:Arial, Helvetica, sans-serif;}
+
+header {background-color: #000000; color: #FFFFFF; height: 110px; text-align:center; padding-top: 20px;
+	  padding-left: 3em; font-family: Georgia, 'Times New Roman', serif;}
+
+nav { font-weight:bold; font-size:100%; padding:1em; float:left; width:225px; font-family: Georgia, 'Times New Roman', serif;}
+nav ul {list-style-type:none; padding-left:0; font-size:1.2em; margin:0;}
+nav a { text-decoration:none;}
+nav a:link {color:#5C7FA3;}
+nav a:visited {color:#FFCC00;}
+nav a:hover {color:#00CCCC;}
+
+#wrapper { margin-left: auto;
+           margin-right: auto;
+          width: 90%;
+		  background-color: #833B83;
+		  min-width: 960px;
+		  max-width: 2048px;
+		  box-shadow: 3px 3px 3px #333333;
+		  background-color: #833B83;
+          background-image: linear-gradient(to bottom right, #333333, #666666); 
+		  border: 1px solid #000033;
+}
+
+main { background-color: #833B83; 
+	  background-image: linear-gradient(to bottom right, #421C52, #833B83);
+	  padding: 1px 20px 20px 30px;
+	  margin-left: 205px;
+      display: block;}
+
+footer {background-image: linear-gradient(to top left, #421C52, #833B83);
+       background-repeat: no-repeat;
+	color: #FFFFFF; font-size:75%; font-style:italic; text-align:center; font-family:Georgia, 'Times New Roman', serif;
+	padding:3px;}
+footer a:link {color:#5C7FA3;}
+footer a:visited {color:#FFCC00;}
+footer a:hover {color:#00CCCC;}
+
+form {background-color: #EAEAEA; color:#000000; font-family: Arial, sans-serif; width: 350px; padding:10px;}
+label {float:left; display:block; width:110px; padding-right:10px; margin-top:10px; text-align:right;}
+input {display:block; margin-bottom:10px;}
+textarea {display:block; margin-bottom:10px;}
+input[type="submit"] {margin-left:110px;}
+#Submit {margin-left:130px;}
+
+span {color:red;}
+
