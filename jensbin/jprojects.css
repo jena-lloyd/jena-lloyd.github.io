@@ -26,8 +26,7 @@ nav a:hover {color:#00CCCC;}
 		  box-shadow: 3px 3px 3px #333333;
 		  background-color: #833B83;
           background-image: linear-gradient(to bottom right, #333333, #666666); 
-		  border: 1px solid #000033;
-}
+		  border: 1px solid #000033;}
 
 main { background-color: #833B83; 
 	  background-image: linear-gradient(to bottom right, #421C52, #833B83);
@@ -52,6 +51,8 @@ input[type="submit"] {margin-left:110px;}
 
 span {color:red;}
 
-#itemsbox {background-color: #EAEAEA; color:#000000; font-family: Arial, sans-serif; padding: 1px 20px 20px 30px;
+#itemsbox {background-color: #EAEAEA; 
+	  font-family:Georgia, 'Times New Roman', serif;
+	  padding: 1px 20px 20px 30px;
 	  margin-left: 205px;
       display: block;}
