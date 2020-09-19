@@ -51,8 +51,4 @@ input[type="submit"] {margin-left:110px;}
 
 span {color:red;}
 
-#itemsbox {background-color: #EAEAEA; 
-	  font-family:Georgia, 'Times New Roman', serif;
-	  padding: 1px 20px 20px 30px;
-	  margin-left: 205px;
-      display: block;}
+#itemsbox {}
