@@ -13,6 +13,9 @@
 </head>
 <body>
 <div id="wrapper">
+<header>
+	<h1>Number Tricks</h1> 
+</header>
 <nav>
 	<ul>
 		<li><a href="index.html" target="_blank">Home</a></li>
@@ -24,7 +27,8 @@
 </nav>
 
 <main>
-    <h1>Hello and thanks for playing! Here is the results:</h1>
+	<p>
+    <h2>Hello and thanks for playing! Here is the results:</h2>
 	<script>
 	var startNum = prompt("Please enter a whole number");
 	startNum = parseInt(startNum);
@@ -35,13 +39,14 @@
 	
 	document.write("I added 9 to " + (startNum) + ". <br>");
 	document.write("Then multipled " + (startNum + 9) + " by 2. <br>"); 
-    document.write("After that I substracted " + ((startNum + 9) * 2) + " with 4. <br>"); 
+    	document.write("After that I substracted " + ((startNum + 9) * 2) + " with 4. <br>"); 
 	document.write("I continue to divide " + (((startNum + 9) * 2) - 4) + " by 2. <br>"); 
 	document.write("Finally subtracting " + ((((startNum + 9) * 2) - 4) / 2) + 
 		" with your first number " + (startNum) + ". <br>");
 	document.write("\n\nAnd here is your final number " + (newNum) + "! <br><br>");
 	</script>
-	<h3>Would you like to <a href="number_tricksJAL.html" target="_self">play again?</a> </h3>
+	<h3>Would you like to <a href="number_tricksJAL.html" target="_self">play again?</a></h3>
+	</p>
 </main>
 
 <footer>
