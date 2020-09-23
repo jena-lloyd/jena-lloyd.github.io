@@ -31,8 +31,7 @@ nav a:hover {color:#00CCCC;}
 main { background-color: #833B83; 
 	  background-image: linear-gradient(to bottom right, #421C52, #833B83);
 	  padding: 1px 20px 20px 30px;
-	  margin-left: 205px;
-      display: block;}
+	  margin-left: 205px;}
 
 footer {background-image: linear-gradient(to top left, #421C52, #833B83);
        background-repeat: no-repeat;

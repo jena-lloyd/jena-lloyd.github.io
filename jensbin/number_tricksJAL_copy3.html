@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Number Tricks</title>
+	<!-- link, style, and script elements go here -->
+	
+	<link rel="stylesheet" href="jprojects.css">
+    <script> 
+	//Jenifer Lloyd
+	//9/15/2020
+	</script>
+</head>
+<body>
+<div id="wrapper">
+<header>
+	<h1>Number Tricks</h1> 
+</header>
+<nav>
+	<ul>
+		<li><a href="index.html" target="_blank">Home</a></li>
+		<li><a href="number_tricksJAL.html" target="_blank">Number Tricks</a></li>
+		<li><a href=" " target="_blank">Project 2 </a></li>
+		<li><a href=" " target="_blank">Project 3</a></li>
+		<li><a href=" " target="_blank">Project ... </a></li>
+	</ul>
+</nav>
+
+<main>
+	
+    	<h3>Hello and thanks for playing! <br> Here are the results:</h3>
+	
+	<script>
+	var startNum = prompt("Please enter a whole number");
+	startNum = parseInt(startNum);
+	var newNum = ((((startNum + 9) * 2) - 4) / 2 - startNum);
+	
+	window.alert("Your final number is " + newNum + "!"); 
+	
+	document.write("First, added 9 to " + (startNum) + ". The new number is " + (startNum + 9) + ". <br>");
+	document.write("Then multiply " + (startNum + 9) + " by 2. The new number is " + ((startNum + 9) * 2) + ". <br>"); 
+    	document.write("After that, substracted " + ((startNum + 9) * 2) + " with 4. The new number is " + (((startNum + 9) * 2) - 4) + ". <br>"); 
+	document.write("Continued to divide " + (((startNum + 9) * 2) - 4) + " by 2. The new number is " + ((((startNum + 9) * 2) - 4) / 2) + ". <br>"); 
+	document.write("Finally, subtracting " + ((((startNum + 9) * 2) - 4) / 2) + " with the first number " + (startNum) + ". <br>");
+	document.write("And here is the final number of " + (newNum) + "! <br><br>");
+	</script>
+	
+	<h3>Would you like to <a href="number_tricksJAL.html" target="_self">play again?</a></h3>
+	
+</main>
+
+<footer>
+	<p>
+	<a href="contact.html" target="_blank">Contact Us</a> 
+	<br><br>
+	<a href="https://www.facebook.com/" target="_blank"><img src="media_icons/iconmonstr-facebook-3-32.png" alt="Facebook"></a> &nbsp;
+	<a href="https://twitter.com/" target="_blank"><img src="media_icons/iconmonstr-twitter-3-32.png" alt="Twitter"></a> &nbsp;
+	<a href="https://www.linkedin.com/" target="_blank"><img src="media_icons/iconmonstr-linkedin-3-32.png" alt="Linkedin"></a> &nbsp;
+	<a href="https://www.instagram.com/" target="_blank"><img src="media_icons/iconmonstr-instagram-3-32.png" alt="Instagram"></a>
+	<br><br>
+	Copyright &copy; 2020 Jenifer Lloyd.
+	</p>
+</footer>
+</div>
+</body>
+</html>
