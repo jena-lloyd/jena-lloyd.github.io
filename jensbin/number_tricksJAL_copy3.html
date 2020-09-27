@@ -32,6 +32,13 @@
     	<h3>Hello and thanks for playing! <br> Here are the results:</h3>
 	
 	<script>
+		
+	var startNum = prompt("Please enter a whole number");
+		startNum = parseInt(startNum);
+		var newNum = ((((startNum + 9) * 2) - 4) / 2 - startNum);
+		
+		window.alert("Your final number is " + newNum + "!");
+
 	var again = "y";
 do {
 	if (!isNaN(startNum) && startNum > 0)
