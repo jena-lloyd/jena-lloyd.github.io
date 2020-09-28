@@ -33,13 +33,19 @@
 	
 	<script>
 
+do {
 	var startNum = prompt("Please enter a whole number");
 		startNum = parseInt(startNum);
 		var newNum = ((((startNum + 9) * 2) - 4) / 2 - startNum);
 		
 		window.alert("Your final number is " + newNum + "!");
 
-		
+	if ( isNaN(startNum) ) {
+		alert("The starting number must be a number");
+		}
+	}
+while ( isNaN(startNum) );	
+
 	document.write("First, added 9 to " + (startNum) + ". The new number is " + (startNum + 9) + ". <br>");
 	document.write("Then multiply " + (startNum + 9) + " by 2. The new number is " + ((startNum + 9) * 2) + ". <br>"); 
     	document.write("After that, substracted " + ((startNum + 9) * 2) + " with 4. The new number is " + (((startNum + 9) * 2) - 4) + ". <br>"); 
