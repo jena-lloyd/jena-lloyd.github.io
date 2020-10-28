@@ -18,4 +18,5 @@ let result = "There once was a " + adjective + " " + noun1 +  " named " + n
 "The " + pluralNoun + " enjoyed the " + noun1 + "'s holiday performance. <br><br>";
 
 // Output
+document.getElementById("result").innerHTML = result;
 alert(result);
