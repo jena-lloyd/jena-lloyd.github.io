@@ -47,15 +47,28 @@
 <input id="song" placeholder="song"><br>
 <input id="verb" placeholder="verb"><br>
 <input id="pluralNoun" placeholder="a plural noun"><br>
-<input id="noun3" placeholder="first noun"><br>
+
 
 <button type="button">Submit</button><br>
 
-<h3>Results:</h3>
+<h3>A Holiday Performance:</h3>
 
-There once was a [spooky] [cat] named [Sunny], that wanted a [blue] [sunhat]. <br>
-[She] would sing [Stay Alive] and [dance] on metal tin. <br>
-The [people] enjoyed the [cat]'s holiday performance. <br><br>
+<script>
+var adjective = prompt("Enter an adjective ");
+var noun1 = prompt("Enter a noun ");
+var name = prompt("Enter a name ");
+var color = prompt("Enter a color ");
+var noun2 = prompt("Enter another noun ");
+var pronoun = prompt("Enter a pronoun ");
+var song = prompt("Enter a song ");
+var verb = prompt("Enter a verb ");
+var pluralNoun = prompt("Enter a plural noun");
+
+document.write("There once was a " + adjective + " " + noun1 +  " named " + name + ", that wanted a " 
++ color + " " + noun2 + ". <br>"
++ pronoun + " would sing " + song + " and " + verb + " on metal tin. <br>"
+"The " + pluralNoun + " enjoyed the " + noun1 + "'s holiday performance. <br><br>");
+</script>
 
 <button type="button">Play again?</button>
 </div>
