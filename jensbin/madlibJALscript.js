@@ -1,7 +1,7 @@
 // Jenifer Lloyd
 
 // Event Listener
-document.getElementById("madlib_Submit").addEventListener("click", madlibJALbuild);
+document.getElementById("madlibSubmit").addEventListener("click", madlibJALbuild);
 
 //Event Function
 function madlibJALbuild() {
