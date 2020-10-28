@@ -13,9 +13,9 @@ let pluralNoun = prompt("Enter a plural noun: ");
 
 // Process
 let result = "There once was a " + adjective + " " + noun1 +  " named " + name + ", that wanted a " 
-+ color + " " + noun2 + ". <br>"
-+ pronoun + " would sing " + song + " and " + verb + " on a box. <br>" +
-"The " + pluralNoun + " enjoyed the " + noun1 + "'s holiday performance. <br><br>";
++ color + " " + noun2 + ". " 
++ pronoun + " would sing " + song + " and " + verb + " on a box. " 
++ "The " + pluralNoun + " enjoyed the " + noun1 + "'s holiday performance. ";
 
 // Output
 document.getElementById("result").innerHTML = result;
