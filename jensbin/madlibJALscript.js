@@ -24,5 +24,6 @@ function madlibJALbuild() {
 
     // Output
     document.getElementById("result").innerHTML = result;
+    document.getElementById("play_button").addEventListener("click", reset);
 }
 
