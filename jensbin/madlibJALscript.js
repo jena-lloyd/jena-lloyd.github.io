@@ -3,13 +3,6 @@
 // Event Listener
 document.getElementById("button").addEventListener("click", madlibJALbuild);
 
-//Uppercase testing?
-$(function() { 
-    $('input').keyup(function() { 
-        this.value = this.value.toLocaleUpperCase(); 
-    }); 
-});
-
 //Event Function
 function madlibJALbuild() {
     // Input
