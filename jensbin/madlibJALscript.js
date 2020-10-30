@@ -6,8 +6,8 @@ document.getElementById("button").addEventListener("click", madlibJALbuild);
 //Event Function
 function madlibJALbuild() {
     // Input
-    function convertToUppercase() {
-    let adjective = document.getElementById("adjective").value;
+    
+    let adjective = document.getElementById("adjective").value.style.textTransform = "uppercase";
     let noun1 = document.getElementById("noun1").value;
     let name = document.getElementById("name").value;
     let color = document.getElementById("color").value;
@@ -16,7 +16,7 @@ function madlibJALbuild() {
     let song = document.getElementById("song").value;
     let verb = document.getElementById("verb").value;
     let pluralNoun = document.getElementById("pluralNoun").value;
-    }
+    
     // Process
     let result = "There once was a " + adjective + " " + noun1 +  " named " + name + ", that wanted a " 
     + color + " " + noun2 + ". " 
