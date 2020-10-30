@@ -3,11 +3,18 @@
 // Event Listener
 document.getElementById("button").addEventListener("click", madlibJALbuild);
 
+//Uppercase testing?
+$(function() { 
+    $('input').keyup(function() { 
+        this.value = this.value.toLocaleUpperCase(); 
+    }); 
+});
+
 //Event Function
 function madlibJALbuild() {
     // Input
     
-    let adjective = document.getElementById("adjective").value.style.textTransform = "uppercase";
+    let adjective = document.getElementById("adjective").value;
     let noun1 = document.getElementById("noun1").value;
     let name = document.getElementById("name").value;
     let color = document.getElementById("color").value;
