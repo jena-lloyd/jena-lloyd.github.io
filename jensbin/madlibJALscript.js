@@ -22,8 +22,10 @@ function madlibJALbuild() {
     + pronoun + " would sing " + song + " and " + verb + " on a box. " 
     + "The " + pluralNoun + " enjoyed the " + noun1 + "'s holiday performance. ";
 
+    document.getElementById("play_button").addEventListener("click", reset);
+    
     // Output
     document.getElementById("result").innerHTML = result;
-    document.getElementById("play_button").addEventListener("click", reset);
+    
 }
 
