@@ -24,8 +24,8 @@ function madlibJALbuild() {
    // + "The " + pluralNoun + " enjoyed the " + noun1 + "'s holiday performance. ";
 
     // Output
-    document.getElementById("result").innerHTML = result;
-    document.getElementById("play_button").addEventListener("click", reset);   
+   // document.getElementById("result").innerHTML = result;
+   // document.getElementById("play_button").addEventListener("click", reset);   
 
 function goAgain() {
     text = ""; //reset the text to an empty string - making it disappear
