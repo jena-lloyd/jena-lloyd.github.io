@@ -1,8 +1,7 @@
 // Jenifer Lloyd
 
 // Event Listener
-document.getElementById("button").addEventListener("click", madlibJALbuild);--
-
+document.getElementById("button").addEventListener("click", madlibJALbuild);
 
 //Event Function
 function madlibJALbuild() {
@@ -19,13 +18,32 @@ function madlibJALbuild() {
     let pluralNoun = document.getElementById("pluralNoun").value;
     
     // Process
-    let result = "There once was a " + adjective + " " + noun1 +  " named " + name + ", that wanted a " 
-    + color + " " + noun2 + ". " 
-    + pronoun + " would sing " + song + " and " + verb + " on a box. " 
-    + "The " + pluralNoun + " enjoyed the " + noun1 + "'s holiday performance. ";
+   // let result = "There once was a " + adjective + " " + noun1 +  " named " + name + ", that wanted a " 
+  //  + color + " " + noun2 + ". " 
+   // + pronoun + " would sing " + song + " and " + verb + " on a box. " 
+   // + "The " + pluralNoun + " enjoyed the " + noun1 + "'s holiday performance. ";
 
     // Output
     document.getElementById("result").innerHTML = result;
-    document.getElementById("play_button").addEventListener("click", reset);
+    document.getElementById("play_button").addEventListener("click", reset);   
+
+function goAgain() {
+    text = ""; //reset the text to an empty string - making it disappear
+    againBtn = ""; //reset the text to an empty string - making it disappear
+    document.getElementById("story").innerHTML = text;
+    document.getElementById("again").innerHTML = againBtn;
+}
+
+function makeStory() {
+    var intro = "There once was a " + adjective + " " + noun1 +  " named " + name + ", that wanted a " 
+    + color + " " + noun2 + ". " 
+    + pronoun + " would sing " + song + " and " + verb + " on a box. " 
+    + "The " + pluralNoun + " enjoyed the " + noun1 + "'s holiday performance. ";
+    text = intro;
+    againBtn = "<button type=\"button\" onclick=\"goAgain()\">Go Again</button>";
+    document.getElementById("story").innerHTML = text;
+    document.getElementById("again").innerHTML = againBtn;
+}
+
 }
 
