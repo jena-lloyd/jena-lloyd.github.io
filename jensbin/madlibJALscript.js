@@ -2,7 +2,11 @@
 // Lab4
 
 // Event Listener
-document.getElementById("button").addEventListener("click", madlibJALbuild);
+<button type="button" onclick="makeStory()">Submit</button>
+
+<p id="story"></p><!-- this is where the story will show -->
+<p id="again"></p> <!-- this is where the again button will show -->
+//document.getElementById("button").addEventListener("click", madlibJALbuild);
 
 //Event Function
 function madlibJALbuild() {
