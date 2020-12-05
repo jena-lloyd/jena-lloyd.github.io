@@ -7,8 +7,8 @@ var scores = [88, 98, 77, 88];
 var $ = function (id) { return document.getElementById(id); };
 
 var displayResults = $("display_results").innerHTML;
-var displayScores = $("scores_table").innerHTML;
-var addScore = $("add")
+//var displayScores = $("scores_table").innerHTML;
+//var addScore = $("add")
 
 window.onload = function () {
 	$("add").onclick = addScore;
