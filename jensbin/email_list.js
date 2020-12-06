@@ -1,7 +1,7 @@
 "use strict";
 
 var $ = function(id) {
-    return document.getElementById(id);
+    return document.getElementById(id).addEventListener("click", joinList);
 };
 
 var joinList = function() {
