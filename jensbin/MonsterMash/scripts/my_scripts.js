@@ -1,8 +1,8 @@
 $(document).ready(function(){
     var headclix = 0, eyeclix = 0, noseclix = 0, mouthclix = 0;
-    lighting_one();
-    lighting_two();
-    lighting_three();
+    lightning_one();
+    lightning_two();
+    lightning_three();
     $("#head").click(function(){
         if (headclix < 9){
             $(this).animate({left:"-=367px"},500);
@@ -43,15 +43,15 @@ $(document).ready(function(){
     });
 });//end doc.onready function
 
-function lighting_one(){
+function lightning_one(){
     $("#container #lightning1").fadeIn(250).fadeOut(250);
     setTimeout("lightning_one()",4000);
 };
-function lighting_two(){
+function lightning_two(){
     $("#container #lightning2").fadeIn("fast").fadeOut("fast");
     setTimeout("lightning_two()",5000);
 };
-function lighting_three(){
+function lightning_three(){
     $("#container #lightning3").fadeIn("fast").fadeOut("fast");
     setTimeout("lightning_three()",7000);
 };
