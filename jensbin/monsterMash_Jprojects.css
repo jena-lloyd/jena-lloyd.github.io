@@ -56,7 +56,7 @@ h3 a:link {color:#5C7FA3;}
 h3 a:visited {color:#FFCC00;}
 h3 a:hover {color:#00CCCC;}
 
-#frame {position:absolute; left:100px; top:100px; width:545px; height:629px;
+#frame {position:absolute; left:400px; top:150px; width:545px; height:629px;
   background-image:url(MonsterMash/images/frame.png); z-index:2; overflow:hidden;}
 
 #pie_box {position:relative; left:91px; top:84px; width:367px; height:460px; z-index:1; overflow:hidden;}
