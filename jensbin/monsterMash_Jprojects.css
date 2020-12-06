@@ -68,6 +68,6 @@ h3 a:hover {color:#00CCCC;}
 #nose{height:86px;}
 #mouth{height:117px;}
 
-.container {position:absolute; left:0px; top:0px; z-index:0;}
+#container {position:absolute; left:0px; top:0px; z-index:0;}
 
 .lightning {display:none; position:absolute; left:0px; top:0px; z-index:0;}
