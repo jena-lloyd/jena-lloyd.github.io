@@ -14,7 +14,7 @@
 
 window.onload = initBannerLink;
 var theBanner = 0;
-var banURL = new Array("https://www.thechildcenter.com/calling-all-superheroes-and-sidekicks/","https://www.cbr.com/best-comic-duos/","https://www.cbr.com/marvel-best-worst-superhero-teams/","https://www.fashionista.com/2019/02/superhero-costume-design-awards-black-panther-oscars","https://www.cbr.com/marvel-vs-dc-who-really-has-the-strongest-heroes/","https://www.nationaltoday.com/national-superhero-day/");
+var banURL = new Array("thechildcenter.com/calling-all-superheroes-and-sidekicks/","cbr.com/best-comic-duos/","cbr.com/marvel-best-worst-superhero-teams/","fashionista.com/2019/02/superhero-costume-design-awards-black-panther-oscars","cbr.com/marvel-vs-dc-who-really-has-the-strongest-heroes/","nationaltoday.com/national-superhero-day/");
 var heroImages = new
 Array("superhero_banners/superhero1.png","superhero_banners/superhero2.png","superhero_banners/superhero3.png","superhero_banners/superhero4.png","superhero_banners/superhero5.png","superhero_banners/superhero6.png"
 );
