@@ -10,7 +10,7 @@ theBanner = 0;
 }
 document.getElementById("image").src = heroImages[theBanner];
 setTimeout(rotate, 3 * 1000);
-}
+};
 
 
 // Attach start and pause event handlers
@@ -20,4 +20,3 @@ setTimeout(rotate, 3 * 1000);
    // $("pause").onclick = function() {
         
    // };
-};
