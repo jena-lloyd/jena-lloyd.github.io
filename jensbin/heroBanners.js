@@ -12,7 +12,6 @@
 //setTimeout(rotate, 3 * 1000);
 //}
 
-window.onload = rotate;
 window.onload = initBannerLink;
 var theBanner = 0;
 var banURL = new Array("thechildcenter.com/calling-all-superheroes-and-sidekicks/","cbr.com/best-comic-duos/","cbr.com/marvel-best-worst-superhero-teams/","fashionista.com/2019/02/superhero-costume-design-awards-black-panther-oscars","cbr.com/marvel-vs-dc-who-really-has-the-strongest-heroes/","nationaltoday.com/national-superhero-day/");
@@ -33,7 +32,7 @@ document.location.href = "http://www." + banURL[theBanner];
 return false;
 }
 function rotate() {
-theAd++;
+theBanner++;
 if (theBanner == heroImages.length) {
 theBanner = 0;
 }
