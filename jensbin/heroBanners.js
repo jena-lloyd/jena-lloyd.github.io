@@ -28,7 +28,7 @@ newLocation;
 rotate();
 }
 function newLocation() {
-document.location.href = "https://www." + banURL[theBanner];
+document.location.href = "http://www." + banURL[theBanner];
 return false;
 }
 function rotate() {
