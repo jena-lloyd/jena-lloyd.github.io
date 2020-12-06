@@ -1,36 +1,23 @@
-"use strict";
-var $ = function (id) { return document.getElementById(id); };
+window.onload = rotate;
+var theBanner = 0;
+var heroImages = new
+Array("superhero_banners/superhero1.png","superhero_banners/superhero2.png","superhero_banners/superhero3.png","superhero_banners/superhero4.png","superhero_banners/superhero5.png","superhero_banners/superhero6.png"
+);
+function rotate() {
+theBanner++;
+if (theBanner == heroImages.length) {
+theBanner = 0;
+}
+document.getElementById("image").src = heroImages[theBanner];
+setTimeout(rotate, 3 * 1000);
+}
 
-var imageCache = [];
-var imageCounter = 0;
-var timer;
 
-var runSlideShow = function() {
-    imageCounter = (imageCounter + 1) % imageCache.length;
-    var image = imageCache[imageCounter];
-    $("image").src = image.src;
-    $("caption").firstChild.nodeValue = image.title;
-};
-
-window.onload = function () {
-    var listNode = $("image_list");    // the ul element
-    var links = listNode.getElementsByTagName("a");
-    
-    // Preload image, copy title properties, and store in array
-    var i, link, image;
-    for ( i = 0; i < links.length; i++ ) {
-        link = links[i];
-        image = new Image();
-        image.src = link.getAttribute("href");
-        image.title = link.getAttribute("title");
-        imageCache[imageCache.length] = image;
-    }
-
-    // Attach start and pause event handlers
-    $("start").onclick = function() {
+// Attach start and pause event handlers
+   // $("start").onclick = function() {
         
-    };
-    $("pause").onclick = function() {
+   // };
+   // $("pause").onclick = function() {
         
-    };
+   // };
 };
