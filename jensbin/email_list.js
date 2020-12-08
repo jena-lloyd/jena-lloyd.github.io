@@ -5,10 +5,10 @@ var $ = function(id) {
 };
 
 var joinList = function() {
-    var emailAddress1 = $("email_address1").value;
+    var emailAddress1 = $("email_address1").value; 
     var emailAddress2 = $("email_address2").value;
     var firstName = $("first_name").value;
-    var errorMessage = "";
+    var errorMessage = ""; errorMessage = ""
 
     // validate the entries
     if (emailAddress1 == "") {
