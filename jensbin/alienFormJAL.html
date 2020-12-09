@@ -4,9 +4,10 @@
         <meta charset="utf-8">
         <title>Alien Sighting Form</title>
         <style></style>
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
         <!-- Jenifer Lloyd
             Lab11-->
-        <script src="jquery-ui-1.12.1.custom/"></script>
+        <script src="jquery-ui-1.12.1.custom/jquery-ui.js"></script>
         <script></script>
        
     </head>
@@ -16,24 +17,73 @@
         <!-- <h1>Alien Sighting Form</h1>
             <h3> Please enter info to this form about an alien sighting. <h3>
                 
-            Sighting Date // datepicker jq ui
+            <label>Sighting Date:</label> // datepicker jq ui
+            <label><input type="text" id="datepicker"></label>
         
             Alien Type //radio buttons
+            
+            <h2></h2>
+            <fieldset>
+            <legend>Select an Alien Type: </legend>
+            <label for="radio-1">Human-like</label>
+            <input type="radio" name="radio-1" id="radio-1">
+            <label for="radio-2">Insect-like</label>
+            <input type="radio" name="radio-1" id="radio-2">
+            <label for="radio-3">Canine-like</label>
+            <input type="radio" name="radio-1" id="radio-3">
+            <label for="radio-4">Lizard-like</lable>
+            <input type="radio" name="radio-1" id="radio-4">
+            <label for="radio-5">Worm-like</lable>
+            <input type="radio" name="radio-1" id="radio-5">
+            <label for="radio-6">Feline-like</lable>
+            <input type="radio" name="radio-1" id="radio-6">
+            <label for="radio-7">Bird-like</lable>
+            <input type="radio" name="radio-1" id="radio-7">
+            </fieldset>
             other //textbox
 
             Weight in pounds: //slider shows value on slider
+            
             Height in feet: //slider
 
             Number of Eyes: // spinner
+            <p>
+            <label for="spinner">Select a value:</label>
+            <input id="spinner" name="value">
+            </p>
             Number of Arms: //spinner
+            <p>
+            <label for="spinner">Select a value:</label>
+            <input id="spinner" name="value">
+            </p>
             Number of Legs: //spinner
+            <p>
+            <label for="spinner">Select a value:</label>
+            <input id="spinner" name="value">
+            </p>
 
             Main Color of the Alien: //color picker slider
+            <p class="ui-state-default ui-corner-all ui-helper-clearfix" style="padding:4px;">
+            <span class="ui-icon ui-icon-pencil" style="float:left; margin:-2px 5px 0 0;"></span>
+            Color of the Alien
+            </p>
+ 
+            <div id="red"></div>
+            <div id="green"></div>
+            <div id="blue"></div>
+ 
+            <div id="swatch" class="ui-widget-content ui-corner-all"></div>
+
             Secondary Color of the Alien: // color picker slider
 
             styled submit button // not sure how to make that work...?
 
             Dialog window // animated to display output submission
+            <div id="dialog" title="Basic dialog">
+            <p></p>
+            </div>
+ 
+            <button id="opener">Open Dialog</button>
 
         -->
     </div>
