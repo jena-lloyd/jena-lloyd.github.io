@@ -23,6 +23,9 @@ $( function() {
 //Datepicker 
 $( function() {
     $( "#datepicker" ).datepicker();
+    $( "#anim" ).on( "change", function() {
+      $( "#datepicker" ).datepicker( "option", "showAnim", $( this ).val() );
+    });
   } );
 
 //Radio Buttons
@@ -33,7 +36,17 @@ $( function() {
   } );
 
 //Slider for Weight(.lbs) and Height(ft)
-
+$( function() {
+    var handle = $( "#custom-handle" );
+    $( "#slider" ).slider({
+      create: function() {
+        handle.text( $( this ).slider( "value" ) );
+      },
+      slide: function( event, ui ) {
+        handle.text( ui.value );
+      }
+    });
+  } );
 
 //Spinner for number of eyes, arms, and legs
 $( function() {
