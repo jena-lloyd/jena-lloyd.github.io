@@ -1,5 +1,5 @@
 //Jenifer Lloyd 12.9.2020
-//Alien Form script
+//lab11 - Alien Form script
 
 //Dialog with Animation
 $( function() {
