@@ -42,9 +42,18 @@ $("my_value").val($("#slide_me").slider("value"));
 
 //Spinner for number of eyes, arms, and legs
 $( function() {
-    var spinner = $( "#spinner" ).spinner();
-    $( "button" ).button();
-  } );
+  $( "#spinner" ).spinner({
+    spin: function( event, ui ) {
+      if ( ui.value > 10 ) {
+        $( this ).spinner( "value", 0 );
+        return false;
+      } else if ( ui.value < 0 ) {
+        $( this ).spinner( "value", 10 );
+        return false;
+      }
+    }
+  });
+} );
 
 //Color Picker Slider for Alien color
 $( function() {
