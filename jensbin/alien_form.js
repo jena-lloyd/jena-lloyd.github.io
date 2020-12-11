@@ -10,7 +10,7 @@ $( function() {
         duration: 1000
       },
       hide: {
-        effect: "fade",
+        effect: "fadeOut",
         duration: 1000
       }
     });
