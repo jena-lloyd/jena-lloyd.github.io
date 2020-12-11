@@ -33,17 +33,12 @@ $( function() {
   } );
 
 //Slider for Weight(.lbs) and Height(ft)
-$( function() {
-    var handle = $( "#custom-handle" );
-    $( "#slider" ).slider({
-      create: function() {
-        handle.text( $( this ).slider( "value" ) );
-      },
-      slide: function( event, ui ) {
-        handle.text( ui.value );
-      }
-    });
-  } );
+$("#slider_me").slider({
+  slider:function(event,ui){
+  $("my_value").val(ui.value);
+  }
+});
+$("my_value").val($("#slide_me").slider("value"));
 
 //Spinner for number of eyes, arms, and legs
 $( function() {
