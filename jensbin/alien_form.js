@@ -1,6 +1,10 @@
 //Jenifer Lloyd 12.9.2020
 //lab11 - Alien Form script
 
+//Labels
+$( "input" ).labels().addClass( "ui-state-highlight" )
+
+
 //Dialog with Animation
 $( function() {
     $( "#dialog" ).dialog({
