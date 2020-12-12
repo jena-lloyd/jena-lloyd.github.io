@@ -1,6 +1,8 @@
+.ui-checkboxradio-label { "ui-checkboxradio-label": "ui-corner-all",
+  "ui-checkboxradio-icon": "ui-corner-all"
+}
 
-
-#slider_me{
+#slider_me .ui-slider-range {
     width: 3em;
     height: 1.6em;
     top: 50%;
@@ -28,3 +30,7 @@
   #green .ui-slider-handle { border-color: #8ae234; }
   #blue .ui-slider-range { background: #729fcf; }
   #blue .ui-slider-handle { border-color: #729fcf; }
+
+  #spinner{
+
+  }

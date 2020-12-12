@@ -27,7 +27,7 @@ $( function() {
 
 //Radio Buttons
 $( function() {
-    $( "input" ).checkboxradio({
+    $( "input[type='radio']" ).checkboxradio({
       icon: false
     });
   } );
