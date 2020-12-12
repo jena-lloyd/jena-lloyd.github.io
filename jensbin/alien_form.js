@@ -58,9 +58,7 @@ $( function() {
     }
   });
 } );
-_uiSpinnerHtml: function() {
-  return "<div class='ui-spinner ui-widget ui-widget-content'></div>";
-}
+
 
 //Color Picker Slider for Alien color
 $( function() {
