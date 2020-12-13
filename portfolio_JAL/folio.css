@@ -86,9 +86,8 @@ background {background-color:#EDAE9F;
     margin: 0 auto;
     margin-top: 12%;
 }
-
 .header {
-    padding: 16px;
+    padding: 10px;
     letter-spacing: 3px;
     background: #C7C7FE;
     border-bottom: 1px solid #000;
@@ -97,7 +96,6 @@ background {background-color:#EDAE9F;
     user-select: none;
     color: #FFFFFF;
 }
-
 .main-text {
     padding: 16px;
     line-height: 24px;
@@ -105,8 +103,6 @@ background {background-color:#EDAE9F;
 }
 .main-text ul {list-style-type:none; padding-left:0; font-size:1.2em; margin:0;}
 .main-text a { text-decoration:none;}
-
-
 .header span {
     position: absolute;
     right: 20px;
