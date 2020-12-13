@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 
-body {background-color:#EDAE9F;
+body {background-color:#FFFFFF;
     display: block;
-	   color:#FFFFFF; 
+	   color:#3A4E62; 
 	   font-family:Arial, Helvetica, sans-serif;}
 
 ul {
@@ -31,7 +31,7 @@ ul li a {
     display: block;
 }
 ul li a:hover {
-    background-color: aquamarine;
+    background-color: #CB8568;
 }
 ul li ul li {
     display: none;
@@ -43,12 +43,10 @@ ul li:hover ul li{
 #wrapper { margin-left: auto;
            margin-right: auto;
           width: 90%;
-		  background-color: #EDAE9F;
 		  min-width: 960px;
 		  max-width: 2048px;
 		  box-shadow: 3px 3px 3px #333333;
-		  background-color: #833B83;
-          background-image: linear-gradient(to bottom right, #C7C7FE, #82D2D9); 
+		  background-color: #8B98A3; 
           border: 1px solid #00006b;}
 
 #info {
@@ -68,30 +66,18 @@ ul li:hover ul li{
 .header {
     padding: 10px;
     letter-spacing: 3px;
-    background: #C7C7FE;
+    background: #AEB8BF;
     border-bottom: 1px solid #000;
     cursor: pointer;
     position: relative;
     user-select: none;
-    color: #FFFFFF;
+    color: #3A4E62;
 }
 .main-text {
     padding: 16px;
     line-height: 24px;
     display: none;
 }
-
-
-#wrapper { margin-left: auto;
-    margin-right: auto;
-   width: 80%;
-   background-color: #833B83;
-   min-width: 960px;
-   max-width: 2048px;
-   box-shadow: 3px 3px 3px #333333;
-   background-color: #833B83;
-   background-image: linear-gradient(to bottom right, #333333, #666666); 
-   border: 1px solid #000033;}
 
 main { background-color: #833B83; 
 padding: 10px 20px 20px 30px;
@@ -100,7 +86,7 @@ margin-left: 0px;}
 header {background-color: #000000; color: #FFFFFF; height: 110px; text-align:center; padding-top: 20px;
     padding-left: 3em; font-family: Georgia, 'Times New Roman', serif;}
 
-footer {background-image: #833B83;
+footer {background-image: #CB8568;
   color: #FFFFFF; font-size:75%; font-style:italic; text-align:center; font-family:Georgia, 'Times New Roman', serif;
  padding:3px;}
 footer a:link {color:#5C7FA3;}
