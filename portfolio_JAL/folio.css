@@ -80,13 +80,7 @@ ul li:hover ul li{
     line-height: 24px;
     display: none;
 }
-.header span {
-    position: absolute;
-    right: 20px;
-}
-.active {
-    display: block;
-}
+
 
 #wrapper { margin-left: auto;
     margin-right: auto;
