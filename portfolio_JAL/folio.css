@@ -97,9 +97,8 @@ ul li:hover ul li{
    border: 1px solid #000033;}
 
 main { background-color: #833B83; 
-background-image: linear-gradient(to bottom right, #421C52, #833B83);
 padding: 10px 20px 20px 30px;
-margin-left: 210px;}
+margin-left: 110px;}
 
 footer {background-image: linear-gradient(to top left, #421C52, #833B83);
     background-repeat: no-repeat;
