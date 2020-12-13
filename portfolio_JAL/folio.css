@@ -47,7 +47,7 @@ background {background-color:#EDAE9F;
     display: block;
     margin: 10px;
 }
-.menu-bar ul li:hover .sub-menu-1 ul {
+.menu-bar ul li:hover .sub-menu-1 ul li {
     width: 150px;
     padding: 10px;
     border-bottom: 1px dotted #ffffff;
@@ -55,8 +55,12 @@ background {background-color:#EDAE9F;
     border-radius: 0;
     text-align: left;
 }
-
-
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child {
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover {
+    color: #00006b;
+}
 #wrapper { margin-left: auto;
            margin-right: auto;
           width: 90%;
