@@ -26,7 +26,7 @@ background {background-color:#EDAE9F;
     text-decoration:none;
     color: #FFFFFF;
 }
-.active, .menu-bar ul li: hover {
+.active, .menu-bar ul li:hover {
     background: #EDAE9F;
     border-radius: 3px;
 }
@@ -36,16 +36,24 @@ background {background-color:#EDAE9F;
 .sub-menu-1 {
     display: none;
 }
-.menu-bar ul li: hover .sub-menu-1 {
+.menu-bar ul li:hover .sub-menu-1 {
     display: block;
     position: absolute;
     background: #838383;
     margin-top:15px;
     margin-left: -15px;
 }
-.menu-bar ul li: hover .sub-menu-1 {
+.menu-bar ul li:hover .sub-menu-1 ul {
     display: block;
     margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul {
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #ffffff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
 }
 
 
