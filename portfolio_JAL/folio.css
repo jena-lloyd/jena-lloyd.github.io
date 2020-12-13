@@ -18,6 +18,7 @@ ul li{
     width: 200px;
     height: 40px;
     background-color: #000;
+    opacity: .8;
 }
 
 #wrapper { margin-left: auto;
