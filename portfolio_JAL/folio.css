@@ -50,7 +50,7 @@ ul li:hover ul li{
           background-image: linear-gradient(to bottom right, #C7C7FE, #82D2D9); 
           border: 1px solid #00006b;}
 
-#accordion-wrapper {
+#info {
     max-width: 900px;
     margin: 0 auto;
 }
