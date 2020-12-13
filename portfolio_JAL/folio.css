@@ -5,6 +5,7 @@
 }
 
 body {background-color:#EDAE9F;
+    display: block;
 	   color:#FFFFFF; 
 	   font-family:Arial, Helvetica, sans-serif;}
 
