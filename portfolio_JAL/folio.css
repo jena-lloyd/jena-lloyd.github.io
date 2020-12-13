@@ -78,6 +78,13 @@ ul li:hover ul li{
     line-height: 24px;
     display: none;
 }
+.header span {
+    position: absolute;
+    right: 20px;
+}
+.active {
+    display: block;
+}
 
 main { background-color: #833B83; 
 padding: 10px 20px 20px 30px;
