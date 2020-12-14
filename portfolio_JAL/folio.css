@@ -112,6 +112,6 @@ span {color:red;}
     background-color:#FFFFFF;
 width: 50%;
 margin: 0 auto;
-margin-left: 10px;
+padding-left: 10px;
 display: block;
 }
