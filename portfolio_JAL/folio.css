@@ -93,8 +93,8 @@ header {background-color: #000000; color: #FFFFFF; height: 110px; text-align:cen
     padding-left: 3em; font-family: Georgia, 'Times New Roman', serif;}
 
 footer {
-  color: #FFFFFF; font-size:75%; font-style:italic; text-align:center; font-family:Georgia, 'Times New Roman', serif;
+  color: #FFFFFF; font-size:75%; font-style:italic; text-align:justify; font-family:Georgia, 'Times New Roman', serif;
  padding:3px;}
-footer a:link {color:#CB8568;}
+footer a:link {color:#FFFFFF;}
 footer a:visited {color:#FFCC00;}
 footer a:hover {color:#00CCCC;}
