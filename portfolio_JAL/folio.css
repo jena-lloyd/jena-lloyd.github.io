@@ -65,7 +65,7 @@ ul li:hover ul li{
 .header {
     padding: 10px;
     letter-spacing: 3px;
-    background: #AEB8BF;
+    background: #CB8568;
     border-bottom: 1px solid #000;
     cursor: pointer;
     position: relative;
@@ -92,9 +92,9 @@ margin-left: 0px;}
 header {background-color: #000000; color: #FFFFFF; height: 110px; text-align:center; padding-top: 20px;
     padding-left: 3em; font-family: Georgia, 'Times New Roman', serif;}
 
-footer {background-image: #CB8568;
+footer {
   color: #FFFFFF; font-size:75%; font-style:italic; text-align:center; font-family:Georgia, 'Times New Roman', serif;
  padding:3px;}
-footer a:link {color:#5C7FA3;}
+footer a:link {color:#CB8568;}
 footer a:visited {color:#FFCC00;}
 footer a:hover {color:#00CCCC;}
