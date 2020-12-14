@@ -107,3 +107,11 @@ input[type="submit"] {margin-left:110px;}
 #Submit {margin-left:130px;}
 
 span {color:red;}
+
+#mad {
+    background-color:#FFFFFF;
+width: 60%;
+margin: 0 auto;
+margin-top: 5%;
+display: block;
+}
