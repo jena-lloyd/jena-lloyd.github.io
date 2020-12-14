@@ -98,3 +98,12 @@ footer {
 footer a:link {color:#FFFFFF;}
 footer a:visited {color:#FFCC00;}
 footer a:hover {color:#00CCCC;}
+
+form {background-color: #EAEAEA; color:#000000; font-family: Arial, sans-serif; width: 350px; padding:10px;}
+label {float:left; display:block; width:110px; padding-right:10px; margin-top:10px; text-align:right;}
+input {display:block; margin-bottom:10px;}
+textarea {display:block; margin-bottom:10px;}
+input[type="submit"] {margin-left:110px;}
+#Submit {margin-left:130px;}
+
+span {color:red;}
