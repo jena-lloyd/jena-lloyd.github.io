@@ -2,18 +2,18 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Handmade Items</title>
+        <title>Number Tricks</title>
         <link rel="stylesheet" href="folio.css">
        
        <!-- Jenifer Lloyd
-            page 2 - Crochet Gallery -->
+            page 3.5 - Coded Projects: Number Tricks -->
 
     </head>
 
     <body>
         <div id="wrapper">
             <header>
-                <h1>Portfolio : About Me</h1>
+                <h1>Number Tricks Game</h1>
                 </header>
             <main>
                 <ul>
@@ -28,7 +28,36 @@
                     <li><a href="reflection.html" target=" ">Reflection</a></li> <!-- Reflection Paper in Html Format-->
                 </ul>
         <br><br>
+	
+    	<h3>Hello and thanks for playing! <br> Here are the results:</h3>
+	
+	<script>
 
+do {
+	var startNum = prompt("Please enter a whole number");
+		startNum = parseInt(startNum);
+		var newNum = ((((startNum + 9) * 2) - 4) / 2 - startNum);
+		
+		window.alert("Your final number is " + newNum + "!");
+
+	if ( isNaN(startNum) ) {
+		alert("The starting number must be a number");
+		}
+	}
+while ( isNaN(startNum) );	
+
+	document.write("First, added 9 to " + (startNum) + ". The new number is " + (startNum + 9) + ". <br>");
+	document.write("Then multiply " + (startNum + 9) + " by 2. The new number is " + ((startNum + 9) * 2) + ". <br>"); 
+    	document.write("After that, substracted " + ((startNum + 9) * 2) + " with 4. The new number is " + (((startNum + 9) * 2) - 4) + ". <br>"); 
+	document.write("Continued to divide " + (((startNum + 9) * 2) - 4) + " by 2. The new number is " + ((((startNum + 9) * 2) - 4) / 2) + ". <br>"); 
+	document.write("Finally, subtracting " + ((((startNum + 9) * 2) - 4) / 2) + " with the first number " + (startNum) + ". <br>");
+	document.write("And here is the final number of " + (newNum) + "! <br><br>");
+	
+	
+</script>
+	
+	<h3>Would you like to <a href="number_tricksJAL_copy3.html" target="_self">play again?</a></h3>
+	
             </main>
             <footer>
                 <p><a href="contact.html" target="_blank">Contact Me</a> <!-- may change... not sure. possible link to linkin?-->
